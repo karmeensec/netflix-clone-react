@@ -1,0 +1,102 @@
+.register{
+    width: 100vw;
+    height: 100vh;
+    background: linear-gradient(to bottom, rgba(0,0,0,0) 0%, rgba(0,0,0,1) 100%), url("../register/registerback3.jpg") no-repeat;
+    background-size: cover;
+    position: relative;
+
+    .top{
+        .wrapper{
+            padding: 20px 50px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+
+            .logo{
+                height: 40px;
+                cursor: pointer;
+            }
+
+            .loginButton{
+                padding: 10px 30px;
+                border: none;
+                border: .1rem solid #34495E;
+                border-radius: 5px;
+                font-size: 17px;
+                cursor: pointer;
+                background-color: #B03A2E;
+                color: #fff;
+                font-weight: 700;
+            }
+        }
+    }
+
+    .container{
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        top: 0;
+        left: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        color: #fff;
+
+        h1{
+            font-size: 50px;
+        }
+
+        h2{
+            margin: 20px;
+        }
+
+        p{
+            font-size: 20px;
+            margin-bottom: 20px;
+        }
+
+        .input{
+            width: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            background: linear-gradient(to bottom, #CD6155, #641E16);
+            height: 50px;
+            padding: 10px;
+            border-radius: 5px;
+            box-shadow: 0 .5rem 1.5rem rgba(0,0,0,.5);
+
+            input{
+                flex: 9;
+                height: 100%;
+                border: none;
+                padding: 0 10px;
+                border-radius: 5px;
+            }
+
+            .registerButton{
+                flex: 3;
+                height: 100%;
+                border: none;
+                padding: 0 10px;
+                border-radius: 5px;
+                background-color: #A93226;
+                color: #fff;
+                font-size: 15px;
+                cursor: pointer;
+                margin-left: 20px;
+            }
+        }
+    }
+}
+
+
+
+
+
+
+
+
+
+
